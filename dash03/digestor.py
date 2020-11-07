@@ -5,7 +5,6 @@ import plotly.express as px
 import pandas as pd
 
 external_stylesheets = ['bWLwgP.css']
-
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 df = pd.DataFrame({
